@@ -1,3 +1,4 @@
+
 # credit-risk-analysis
 
 ## Overview
@@ -37,7 +38,7 @@ The results from the six different machine learning models are as follows:
 
 
 
-3. **Undersampling
+3. **Undersampling**
 - Balanced Accuracy Test:     66%
 
 - Precision:
@@ -50,7 +51,7 @@ The results from the six different machine learning models are as follows:
 
 
 
-4. **Over and Undersampling
+4. **Over and Undersampling**
 - Balanced Accuracy Test:     54%
 
 - Precision:
@@ -63,7 +64,7 @@ The results from the six different machine learning models are as follows:
 
 
 
-5. **Balanced Random Forest Classifier
+5. **Balanced Random Forest Classifier**
 - Balanced Accuracy Test:     78%
 
 - Precision:
@@ -76,7 +77,7 @@ The results from the six different machine learning models are as follows:
 
 
 
-6. **Easy Ensemble AdaBoost Classifier
+6. **Easy Ensemble AdaBoost Classifier**
 - Balanced Accuracy Test:     91%
 
 - Precision:
@@ -90,4 +91,5 @@ The results from the six different machine learning models are as follows:
 
 
 ## Summary
+After testing each model to find what is the best suited one for predicting which loans are the highest risk we can say that over and undersampling are not as accurate as we would like a model to be for this project. However, Balanced Random Forest and Easy Ensemble AdaBoost Classifiers are on the higher side of the precision mark. Therefore, making Easy Ensemble AdaBoost Classifiers the perfect model to use having the highest recall score to dive into credit card analysis.
 
